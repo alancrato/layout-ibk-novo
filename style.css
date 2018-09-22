@@ -1,0 +1,328 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+body{
+    background-color: #f7f7f714;
+}
+
+/*
+    nav
+ */
+
+nav {
+    border-bottom: 3px solid #ff5c01;
+}
+
+nav .brand-logo {
+    padding: 10px 0;
+}
+
+nav ul a {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #5a5a5a;
+}
+
+nav a {
+    color: #ff5c01;
+}
+
+nav ul a:hover{
+    background-color: #ff5c01;
+    color: white;
+}
+
+i.right {
+    float: right;
+    margin-left: inherit;
+}
+
+.dropdown-content{
+    top: 60px !important;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+    font-size: 0.9em;
+    color: #ff5c01;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+}
+
+
+/*
+    card
+ */
+
+.card{
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.14), 0 9px 40px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover{
+    filter: brightness(80%);
+}
+
+.card .card-image img{
+    width: 200px;
+    margin: 0 auto;
+    top: 20px;
+}
+
+h1 {
+    font-size: 3.2rem;
+    margin: 2.8rem 0 0.68rem 0;
+}
+
+.h1-text{
+    color: #ff5c01;
+}
+
+.card .card-content{
+    margin-top: 27px;
+    background-color: #0c0c0c05;
+    border-top: 1px solid rgba(160, 160, 160, 0.02);
+}
+
+.card .card-action{
+    background-color: white;
+    border-top: 1px solid rgba(160, 160, 160, 0.1);
+}
+
+.card .card-action a{
+    color: #ff5c01;
+}
+
+.product{
+    font-weight: 300;
+    margin-bottom: 2%;
+    color: #ff9800;
+}
+
+.desc-products{
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+
+
+/*
+    slide
+ */
+
+.carousel .indicators .indicator-item {
+    margin: 5px 4px;
+}
+
+
+/*
+    social
+ */
+
+.container-social{
+    width: 100%;
+    height: 450px;
+    background-image: url("img/social.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /*filter: brightness(60%);*/
+}
+
+.title-social{
+    margin-top: 10%;
+    font-size: 3em;
+    font-weight: 500;
+    color: white;
+}
+
+.line-social{
+    width: 15%;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+.subtitle-social{
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.social-icons a{
+    border: 2px solid white;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    height: 100px;
+    padding: 6px 36px;
+    width: 100px;
+}
+
+.social-icons a:hover{
+    color: #ff9800;
+}
+
+
+/*
+    about
+ */
+
+.z-depth img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+
+.z-depth img:hover{
+    filter: brightness(60%);
+}
+
+
+
+/*
+ map
+*/
+
+.row-map{
+    margin-bottom: -18px !important;
+}
+
+
+
+
+/*
+    album
+ */
+
+
+/*
+    about
+ */
+
+.margin-top-about{
+    margin-top: 5%;
+}
+
+.title-about{
+    font-size: 3em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ff5c01;
+    text-align: center;
+}
+
+.subtitle-about{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.content-about{
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.img-about{
+    margin-top: 50%;
+}
+
+/*
+    contato
+ */
+
+.title-contato{
+    font-size: 2.2em;
+}
+
+.subtitle-contato{
+    font-size: 1.2em;
+}
+
+.inf-contact{
+    padding: 5px 30px;
+    margin-top: 25px;
+}
+
+.inf-contact-title{
+    font-size: 1.4em;
+    font-weight: 500;
+    color: black;
+}
+
+.inf-contact-content{
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #5d5a5a;
+    margin-bottom: 10%;
+}
+
+input:not([type]):focus:not([readonly]) + label, input[type=text]:not(.browser-default):focus:not([readonly]) + label, input[type=password]:not(.browser-default):focus:not([readonly]) + label, input[type=email]:not(.browser-default):focus:not([readonly]) + label, input[type=url]:not(.browser-default):focus:not([readonly]) + label, input[type=time]:not(.browser-default):focus:not([readonly]) + label, input[type=date]:not(.browser-default):focus:not([readonly]) + label, input[type=datetime]:not(.browser-default):focus:not([readonly]) + label, input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label, input[type=tel]:not(.browser-default):focus:not([readonly]) + label, input[type=number]:not(.browser-default):focus:not([readonly]) + label, input[type=search]:not(.browser-default):focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label{
+    color: #b5abab;
+}
+
+input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:not(.browser-default), input[type=text].valid:not(.browser-default):focus, input[type=password].valid:not(.browser-default), input[type=password].valid:not(.browser-default):focus, input[type=email].valid:not(.browser-default), input[type=email].valid:not(.browser-default):focus, input[type=url].valid:not(.browser-default), input[type=url].valid:not(.browser-default):focus, input[type=time].valid:not(.browser-default), input[type=time].valid:not(.browser-default):focus, input[type=date].valid:not(.browser-default), input[type=date].valid:not(.browser-default):focus, input[type=datetime].valid:not(.browser-default), input[type=datetime].valid:not(.browser-default):focus, input[type=datetime-local].valid:not(.browser-default), input[type=datetime-local].valid:not(.browser-default):focus, input[type=tel].valid:not(.browser-default), input[type=tel].valid:not(.browser-default):focus, input[type=number].valid:not(.browser-default), input[type=number].valid:not(.browser-default):focus, input[type=search].valid:not(.browser-default), input[type=search].valid:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-dropdown {
+    border-bottom: 1px solid #b5abab;
+    -webkit-box-shadow: 0 1px 0 0 #b5abab;
+    box-shadow: 0 1px 0 0 #b5abab;
+}
+
+.validate{
+    border-bottom: 1px solid #b5abab !important;
+    box-shadow: 0 1px 0 0 #b5abab !important;
+}
+
+textarea{
+    border-bottom: 1px solid #b5abab !important;
+    box-shadow: 0 1px 0 0 #b5abab !important;
+}
+
+.seta{
+    margin-left: 5px !important;
+}
+
+
+/*
+    footer
+ */
+
+footer a{
+    font-weight: 400;
+    color: #ece6df;
+    font-size: 1.1em;
+}
+
+footer a:hover{
+    color: white;
+}
+
+.logo-footer{
+    margin-top: 10%;
+}
+
+.border-menu-footer{
+    border-left: 1px solid peachpuff;
+}
+
+
+
+/*
+    media
+ */
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+        height: 74px;
+        line-height: 74px;
+    }
+}
