@@ -292,6 +292,40 @@ textarea{
 }
 
 
+
+
+
+
+/*
+    map
+ */
+
+.map img{
+    width: 100%;
+}
+
+.title-rep{
+    margin-top: 10%;
+    font-size: 2em;
+}
+
+.subtitle-rep{
+    font-size: 1.2em;
+}
+
+.card .card-title {
+    font-size: 1.2em;
+}
+
+.nome{
+    font-size: 1em;
+}
+
+.desc{
+    font-size: 0.9em;
+}
+
+
 /*
     footer
  */

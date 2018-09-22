@@ -22,14 +22,14 @@
 
         <!-- Dropdown Structure -->
         <ul id="dropdown1" class="dropdown-content">
-            <li><a href="javascript:void(null)">Comercial Calçados</a></li>
-            <li><a href="javascript:void(null)">Comercial EVA</a></li>
+            <li><a href="javascript:void(null)">Calçados</a></li>
+            <li><a href="javascript:void(null)">EVA</a></li>
         </ul>
 
         <!-- Dropdown Structure -->
         <ul id="dropdown2" class="dropdown-content">
-            <li><a href="javascript:void(null)">Comercial Calçados</a></li>
-            <li><a href="javascript:void(null)">Comercial EVA</a></li>
+            <li><a href="rep-calcados.php">Calçados</a></li>
+            <li><a href="rep-eva.php">EVA</a></li>
         </ul>
 
         <ul class="right hide-on-med-and-down">
@@ -38,7 +38,7 @@
             <!-- Dropdown Trigger -->
             <li><a class="dropdown-trigger" href="javascript:void(null)" data-target="dropdown1">Produtos<i class="material-icons right">arrow_drop_down</i></a></li>
             <!-- Dropdown Trigger -->
-            <li><a class="dropdown-trigger" href="javascript:void(null)" data-target="dropdown1">Representantes<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-trigger" href="javascript:void(null)" data-target="dropdown2">Representantes<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a href="contato.php">Contatos</a></li>
         </ul>
 
