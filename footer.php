@@ -17,15 +17,15 @@
             </div>
             <div class="col s6 m3 border-menu-footer">
                 <ul>
-                    <li><a href="#!">Facebook</a></li>
-                    <li><a href="#!">Instagram</a></li>
-                    <li><a href="#!">Whatsapp</a></li>
+                    <li><a href="javascript:void(null)">Facebook</a></li>
+                    <li><a href="javascript:void(null)">Instagram</a></li>
+                    <li><a href="javascript:void(null)">Whatsapp</a></li>
                 </ul>
             </div>
             <div class="col s6 m3 border-menu-footer">
                 <ul>
-                    <li><a href="#!">E-mail</a></li>
-                    <li><a href="#!">Fones: (88) 9999-9999</a></li>
+                    <li><a href="javascript:void(null)">E-mail</a></li>
+                    <li><a href="javascript:void(null)">Fones: (88) 9999-9999</a></li>
                 </ul>
             </div>
         </div>

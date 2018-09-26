@@ -41,7 +41,7 @@
                         </div>
                     </div>
                     <div class="card-action center">
-                        <a href="#">Ver Produto</a>
+                        <a href="produto.php">Ver Produto</a>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                         </div>
                     </div>
                     <div class="card-action center">
-                        <a href="javascript:void(null)">Ver Produto</a>
+                        <a href="produto.php">Ver Produto</a>
                     </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                         </div>
                     </div>
                     <div class="card-action center">
-                        <a href="#">Ver Produto</a>
+                        <a href="produto.php">Ver Produto</a>
                     </div>
                 </div>
             </div>

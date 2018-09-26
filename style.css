@@ -349,6 +349,130 @@ textarea{
     margin-top: 25px;
 }
 
+
+/*
+    produto
+ */
+
+.img-category img{
+    width: 100%;
+}
+
+.img-product img{
+    width: 100%;
+    padding: 10%;
+}
+
+.title-product{
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ff5c01;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitle-product{
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.grade{
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.ref{
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.title-variations{
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #ff5c01;
+    text-align: center;
+}
+
+.title-relations{
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #ff5c01;
+    text-align: center;
+}
+
+.z-depth-product img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+}
+
+
+/*
+    category calcados
+ */
+
+.title-category{
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.line-title-category{
+    border: 1px solid #ff5c01;
+    width: 25%;
+}
+
+.list-item-category ul li{
+    margin: 6px 0;
+}
+
+.list-item-category ul li a{
+    font-size: 1.4em;
+    font-weight: 300;
+    color: #5a5a5a;
+}
+
+.line-item-category{
+    border: 1px solid #a5a5a51f;
+    width: 25%;
+}
+
+.img-category img{
+    width: 100%;
+}
+
+.pagination li.active {
+    background-color: #ff5c01;
+}
+
+.nome-product{
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.ref-product{
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+
+/*
+    category eva
+ */
+
+.content-eva{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+
 /*
     footer
  */

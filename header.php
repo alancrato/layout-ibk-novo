@@ -16,14 +16,14 @@
 <body>
 <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-        <a id="logo-container" href="javascript:void(null)" class="brand-logo">
+        <a id="logo-container" href="index.php" class="brand-logo">
             <img src="img/logo.png"/>
         </a>
 
         <!-- Dropdown Structure -->
         <ul id="dropdown1" class="dropdown-content">
-            <li><a href="javascript:void(null)">Calçados</a></li>
-            <li><a href="javascript:void(null)">EVA</a></li>
+            <li><a href="category-calcados.php">Calçados</a></li>
+            <li><a href="category-eva.php">EVA</a></li>
         </ul>
 
         <!-- Dropdown Structure -->
